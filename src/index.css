@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  line-height: 1.6;
+}
+
+
+/* Hero Section Styles */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 0 1.5rem;
+}
+
+/* section span {
+  display: inline-block;
+  background-color: #ec4899;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+} */
+
+section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1.125rem;
+  color: #b3b3b3;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+section p strong {
+  color: rgba(18, 253, 225, 1)
+  ;
+}
+
+section div {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+section a {
+  font-size: 1.5rem;
+  color: #b3b3b3;
+  transition: color 0.3s;
+}
+
+section a:hover {
+  color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 5rem;
+  background-color: #000;
+  color: #b3b3b3;
+  font-size: 0.875rem;
+}
